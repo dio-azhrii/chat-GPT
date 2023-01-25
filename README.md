@@ -1,3 +1,6 @@
+# HAPPY USE
+![IMG-20220617-WA0214](https://user-images.githubusercontent.com/102281729/214594577-6462b0bb-5b83-46fe-b532-59f9bc6d4998.jpg)
+
 # Notice:
 
 OpenAI's ChatGPT is experiencing heavy traffic and at the moment obtaining a session is difficult. You may get these messages while attempting to run the bot. If this happens, try again. Once you get a session, it seems to last quite a while (although it will eventually timeout.)
@@ -11,7 +14,6 @@ Also - feel free to contribute via pull requests etc. :)
 <img width="350" alt="Screenshot 2022-12-13 at 8 51 56 AM" src="https://user-images.githubusercontent.com/18585190/207405242-171787d3-2cde-417b-a2df-aa53fc80cd31.png">
 
 
-
 # WhatsGPT?
 
 WhatsGPT is a wrapper for [ChatGPT](https://openai.com/blog/chatgpt/) for personal or family use, that runs inside your own WhatsApp bot.
@@ -23,7 +25,7 @@ My family and I find ChatGPT very useful want we want to use it on the go and I 
 
 It's experimental and relies on the preview release of OpenAI's ChatGPT.
 
-<img width="350" src="https://user-images.githubusercontent.com/18585190/206880862-7bdb74d1-728e-4177-a5c1-e7e7243777b6.jpg" />
+
 
 ## Thanks to
 
