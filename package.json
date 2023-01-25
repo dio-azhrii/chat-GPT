@@ -1,0 +1,38 @@
+{
+  "name": "whatsgpt",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot for ChatGPT for personal or family use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dio-azhrii/chat-GPT.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "whatsapp",
+    "chatbot",
+    "personal",
+    "assistant",
+    "assistant"
+  ],
+  "author": "DioX",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dio-azhrii/chat-GPT/issues"
+  },
+  "homepage": "https://github.com/dio-azhrii/chat-GPT#readme",
+  "dependencies": {
+    "chatgpt": "latest",
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.4.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.0.3"
+  }
+}
