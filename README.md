@@ -76,9 +76,8 @@ npm start
 
 ## Scan the barcode with your WhatsApp app:
 
-<img width="350" src="https://user-images.githubusercontent.com/18585190/206880813-622c104f-d938-45d2-944d-9e0a7abeedab.jpg" />
 
-<img width="350" src="https://user-images.githubusercontent.com/18585190/206880812-52a6b414-377c-437e-a9ea-52df39795f6b.jpg" />
+<img width="350" src="https://user-images.githubusercontent.com/102281729/214616644-6c33f592-7841-437c-bae4-f6e689217c80.png" />
 
 ## Done :)
 
