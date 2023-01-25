@@ -45,7 +45,7 @@ It's experimental and relies on the preview release of OpenAI's ChatGPT.
 Clone the repository:
 
 ```console
-git clone https://github.com/pascalroget/whatsgpt.git
+git clone https://github.com/dio-azhrii/chat-GPT.git
 ```
 
 Install dependencies:
