@@ -29,6 +29,8 @@ It's experimental and relies on the preview release of OpenAI's ChatGPT.
 
 ## Thanks to
 
+- [Nabil Zihni](https://github.com/xnabil354) 
+
 - [chatgpt npm wrapper by Travis Fischer](https://github.com/transitive-bullshit/chatgpt-api)
 - [whatsapp-web.js](https://wwebjs.dev/guide/)
 - [qrcode-terminal for quickly linking device](https://www.npmjs.com/package/qrcode-terminal)
