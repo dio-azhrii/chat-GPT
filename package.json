@@ -27,8 +27,9 @@
   },
   "homepage": "https://github.com/dio-azhrii/chat-GPT#readme",
   "dependencies": {
-    "chatgpt": "latest",
     "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "openai": "^3.2.1",
     "puppeteer": "^19.4.0",
     "puppeteer-extra": "^3.3.4",
     "puppeteer-extra-plugin-stealth": "^2.11.1",
