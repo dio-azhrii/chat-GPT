@@ -6,31 +6,23 @@ OPENAI_APIKEY=
 
 See documentation for help
 */
+
 import { Configuration, OpenAIApi } from "openai";
 import whatsappweb from "whatsapp-web.js";
 import fs from 'fs';
 
-const { Client, LegacySessionAuth } = whatsappweb;
+const { Client, LocalAuth } = whatsappweb;
 import qrcode from "qrcode-terminal";
 import * as dotenv from "dotenv";
 
 dotenv.config();
-
-// Path where the session data will be stored
-const SESSION_FILE_PATH = './chatbot.json';
-
-// Load the session data if it has been previously saved
-let sessionData;
-if(fs.existsSync(SESSION_FILE_PATH)) return sessionData = require(SESSION_FILE_PATH);
 
 // Create whatsapp client instance
 const whatsapp = new Client({
   puppeteer: {
     executablePath: process.env.CHROME_PATH,
   },
-  authStrategy: new LegacySessionAuth({
-    session: sessionData
-}),
+  authStrategy: new LocalAuth()
 });
 
 console.log(process.env.CHROME_PATH);
@@ -72,8 +64,7 @@ async function main() {
       // If added to a chatgroup, only respond if tagged
       const chat = await message.getChat();
 
-      if (chat.isGroup && !message.mentionedIds.includes(whatsapp.info.wid._serialized)
-      )
+      if (chat.isGroup && !message.mentionedIds.includes(whatsapp.info.wid._serialized))
         return;
 
       // Do we already have a conversation for this sender, or is the user resetting this conversation?
