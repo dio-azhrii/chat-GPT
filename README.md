@@ -65,8 +65,8 @@ npm install
 Create a .env file with the following variables. In this example, we are using Chrome on OSX.
 
 ```console
-CHROME_PATH=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-OPENAI_APIKEY=[YOUR_APIKEY]
+CHROME_PATH="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+OPENAI_APIKEY="YOUR_APIKEY"
 
 ```
 
