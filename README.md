@@ -66,8 +66,8 @@ Create a .env file with the following variables. In this example, we are using C
 
 ```console
 CHROME_PATH=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-EMAIL=[Your email used to register with OpenAI]
-PASSWORD=[Your password used to register with OpenAI]
+OPENAI_APIKEY=[YOUR_APIKEY]
+
 ```
 
 ## Run it
